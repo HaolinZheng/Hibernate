@@ -1,0 +1,57 @@
+11,Caster, AoE / Splash Caster
+12,Caster, Burninator / Blast Caster
+13,Caster, Chain Caster
+14,Caster, Charge / Mystic Caster
+15,Caster, Drone / Mech-Accord
+16,Caster, Modal / Phalanx Caster
+17,Caster, ST / Core Caster
+21,Defender, Arts Protector1
+22,Defender, Duelist
+23,Defender, Enmity / Juggernaut
+24,Defender, Fortress
+25,Defender, Healing / Guardian
+26,Defender, Normal / Protector
+27,Defender, Sentinel Protector
+31,Guard, Arts Fighter
+32,Guard, AoE / Centurion
+33,Guard, Brawler / Fighter
+34,Guard, Crusher
+35,Guard, Dualstrike / Swordmaster
+36,Guard, Duelist / Dreadnought
+37,Guard, Enmity / Musha
+38,Guard, Liberator Guard
+39,Guard, Ranged / Lord
+310,Guard, Reaper Guard
+311,Guard, Support / Instructor
+41,Medic, AoE / Multi-target Medic
+42,Medic, Chain Healer
+43,Medic, Incantation
+44,Medic, ST / Medic
+45,Medic, Wandering Medic
+46,Medic, Wide-Range / Therapist
+51,Sniper, Aftershock / Flinger
+52,Sniper, Anti-Air / Marksman
+53,Sniper, AoE / Artilleryman
+54,Sniper, Boomstick / Spreadshooter
+55,Sniper, Close Range / Heavyshooter
+56,Sniper, Heavyweight / Besieger
+57,Sniper, Long-Range / Deadeye
+61,Specialist, Ambusher
+62,Specialist, DP-Drain / Merchant
+63,Specialist, Fast-Redeploy / Executor
+64,Specialist, Puller / Hookmaster
+65,Specialist, Pusher / Push Stroker
+66,Specialist, Sacrificial / Geek
+67,Specialist, Substitute / Dollkeeper
+68,Specialist, Trapmaster
+71,Supporter, Artificer
+72,Supporter, Aura / Bard
+73,Supporter, Buffer / Abjurer
+74,Supporter, Debuffer / Hexer
+75,Supporter, Slower / Decel Binder
+76,Supporter, Summoner
+81,Vanguard, Agent
+82,Vanguard, DP-On-Kill / Charger
+83,Vanguard, Flagbearer / Standard Bearer
+84,Vanguard, Skill-DP / Pioneer
+85,Vanguard, Summoner / Tactician

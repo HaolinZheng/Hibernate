@@ -1,0 +1,290 @@
+Friston-3,Melee,Physical Damage,FALSE,26
+Muelsyse,Ranged,Physical Damage,FALSE,85
+Ho'olheyak,Ranged,Arts Damage,FALSE,17
+Melanite,Ranged,Physical Damage,FALSE,55
+Silence the Paradigmatic,Ranged,Arts Damage,TRUE,73
+Ines,Melee,Physical Damage,FALSE,81
+Cement,Melee,Physical Damage,FALSE,22
+Humus,Melee,Physical Damage,FALSE,310
+Morgan,Melee,Physical Damage,FALSE,36
+Kirin R Yato,Melee,Physical Damage,TRUE,63
+Rathalos S Noir Corne,Melee,Physical Damage,TRUE,37
+Terra Research Commission,Ranged,Physical Damage,FALSE,51
+Qiubai,Melee,Physical Damage,FALSE,39
+Wind Chimes,Melee,Physical Damage,FALSE,34
+Firewhistle,Melee,Physical Damage,FALSE,24
+Jieyun,Ranged,Physical Damage,FALSE,53
+Chongyue,Melee,Physical Damage,FALSE,33
+Lin,Ranged,Arts Damage,FALSE,16
+Reed the Flame Shadow,Ranged,Arts Damage,TRUE,43
+Harmonie,Ranged,Arts Damage,FALSE,14
+Puzzle,Melee,Physical Damage,FALSE,81
+Quartz,Melee,Physical Damage,FALSE,34
+Qanipalaat,Ranged,Arts Damage,FALSE,17
+Lunacub,Ranged,Physical Damage,FALSE,57
+Vigil,Ranged,Physical Damage,FALSE,85
+Penance,Melee,Physical Damage,FALSE,23
+Texas the Omertosa,Melee,Physical Damage,TRUE,63
+Stainless,Melee,Physical Damage,FALSE,71
+Paprika,Ranged,Healing,FALSE,42
+Totter,Ranged,Physical Damage,FALSE,56
+Dagda,Melee,Physical Damage,FALSE,33
+Luo Xiaohei,Melee,Physical Damage,FALSE,39
+Highmore,Melee,Physical Damage,FALSE,310
+Młynar,Melee,Physical Damage,FALSE,38
+Proviso,Ranged,Arts Damage,FALSE,75
+Cantabile,Melee,Physical Damage,FALSE,81
+Minimalist,Ranged,Arts Damage,FALSE,15
+Pozëmka,Ranged,Physical Damage,FALSE,55
+Gavial the Invincible,Melee,Physical Damage,TRUE,32
+Dorothy,Ranged,Physical Damage,FALSE,68
+Greyy the Lightningbearer,Ranged,Physical Damage,TRUE,51
+Astgenne,Ranged,Arts Damage,FALSE,13
+Ebenholz,Ranged,Arts Damage,FALSE,14
+Hibiscus the Purifier,Ranged,Arts Damage,TRUE,43
+Czerny,Melee,Physical Damage,FALSE,21
+Erato,Ranged,Physical Damage,FALSE,56
+Windflit,Melee,Physical Damage,FALSE,71
+Lumen,Ranged,Healing,FALSE,46
+Irene,Melee,Physical Damage,FALSE,35
+Specter the Unchained,Melee,Physical Damage,TRUE,67
+Horn,Melee,Physical Damage,FALSE,24
+Rockrock,Ranged,Arts Damage,FALSE,15
+Chestnut,Ranged,Healing,FALSE,45
+Heidi,Ranged,Healing,FALSE,72
+Kazemaru,Melee,Physical Damage,FALSE,67
+Fiammetta,Ranged,Physical Damage,FALSE,53
+Enforcer,Melee,Physical Damage,FALSE,65
+Quercus,Ranged,Arts Damage,FALSE,73
+Goldenglow,Ranged,Arts Damage,FALSE,15
+Kroos the Keen Glint,Ranged,Physical Damage,TRUE,52
+Blacknight,Ranged,Physical Damage,FALSE,85
+Lee,Melee,Physical Damage,FALSE,62
+Ling,Ranged,Arts Damage,FALSE,76
+Shalem,Melee,Physical Damage,FALSE,21
+Gnosis,Ranged,Arts Damage,FALSE,74
+Aurora,Melee,Physical Damage,FALSE,22
+Kjera,Ranged,Arts Damage,FALSE,15
+Nine-Colored Deer,Ranged,Arts Damage,FALSE,73
+Honeyberry,Ranged,Healing,FALSE,45
+Pudding,Ranged,Arts Damage,FALSE,13
+Justice Knight',Ranged,Physical Damage,FALSE,52
+Wild Mane,Melee,Physical Damage,FALSE,82
+Corroserum,Ranged,Arts Damage,FALSE,12
+Flametail,Melee,Physical Damage,FALSE,84
+Nearl the Radiant Knight,Melee,Physical Damage,TRUE,36
+Fartooth,Ranged,Physical Damage,FALSE,57
+Ashlock,Melee,Physical Damage,FALSE,24
+Saileach,Melee,Physical Damage,FALSE,83
+Mulberry,Ranged,Healing,FALSE,45
+Roberta,Melee,Physical Damage,FALSE,71
+Tequila,Melee,Physical Damage,FALSE,38
+La Pluma,Melee,Physical Damage,FALSE,310
+Mizuki,Melee,Physical Damage,FALSE,61
+Ch'en the Holungday,Ranged,Physical Damage,TRUE,54
+Pallas,Melee,Physical Damage,FALSE,311
+Carnelian,Ranged,Arts Damage,FALSE,16
+Kirara,Melee,Physical Damage,FALSE,61
+Bena,Melee,Physical Damage,FALSE,67
+Indigo,Ranged,Arts Damage,FALSE,14
+Skadi the Corrupting Heart,Ranged,Healing,TRUE,72
+Kal'tsit,Ranged,Healing,FALSE,44
+Gladiia,Melee,Physical Damage,FALSE,64
+Akafuyu,Melee,Physical Damage,FALSE,37
+Passenger,Ranged,Arts Damage,FALSE,13
+Toddifons,Ranged,Physical Damage,FALSE,56
+Heavyrain,Melee,Physical Damage,FALSE,26
+Ash,Ranged,Physical Damage,FALSE,52
+Frost,Ranged,Physical Damage,FALSE,68
+Blitz,Melee,Physical Damage,FALSE,27
+Tachanka,Melee,Physical Damage,FALSE,35
+Dusk,Ranged,Arts Damage,FALSE,11
+Saga,Melee,Physical Damage,FALSE,84
+Mr. Nothing,Melee,Physical Damage,FALSE,62
+Lava the Purgatory,Ranged,Arts Damage,TRUE,11
+Tuye,Ranged,Healing,FALSE,44
+Archetto,Ranged,Physical Damage,FALSE,52
+Iris,Ranged,Arts Damage,FALSE,14
+Beanstalk,Ranged,Physical Damage,FALSE,85
+Mountain,Melee,Physical Damage,FALSE,33
+Robin,Ranged,Physical Damage,FALSE,68
+Kafka,Melee,Physical Damage,FALSE,63
+Pinecone,Ranged,Physical Damage,FALSE,54
+Jackie,Melee,Physical Damage,FALSE,33
+Amiya (Guard),Melee,Arts Damage,TRUE,31
+Whisperain,Ranged,Healing,FALSE,46
+Mudrock,Melee,Physical Damage,FALSE,23
+Rosmontis,Ranged,Physical Damage,FALSE,51
+Blemishine,Melee,Physical Damage,FALSE,25
+Aosta,Ranged,Physical Damage,FALSE,54
+Whislash,Melee,Physical Damage,FALSE,311
+Bubble,Melee,Physical Damage,FALSE,26
+Surtr,Melee,Arts Damage,FALSE,31
+April,Ranged,Physical Damage,FALSE,52
+Mint,Ranged,Arts Damage,FALSE,16
+Arene,Melee,Physical Damage,FALSE,39
+Touch,Ranged,Healing,FALSE,44
+Pith,Ranged,Arts Damage,FALSE,11
+Stormeye,Ranged,Physical Damage,FALSE,52
+Sharp,Melee,Physical Damage,FALSE,36
+Reserve Operator - Caster,Ranged,Arts Damage,FALSE,17
+Reserve Operator - Logistics,Ranged,Healing,FALSE,44
+Reserve Operator - Sniper,Ranged,Physical Damage,FALSE,52
+Reserve Operator - Melee,Melee,Physical Damage,FALSE,84
+Eunectes,Melee,Physical Damage,FALSE,22
+Flint,Melee,Physical Damage,FALSE,33
+Tomimi,Ranged,Arts Damage,FALSE,17
+Aciddrop,Ranged,Physical Damage,FALSE,55
+Thorns,Melee,Physical Damage,FALSE,39
+Andreana,Ranged,Physical Damage,FALSE,57
+Jaye,Melee,Physical Damage,FALSE,62
+Chiave,Melee,Physical Damage,FALSE,84
+Beeswax,Ranged,Arts Damage,FALSE,16
+Scene,Ranged,Arts Damage,FALSE,76
+Suzuran,Ranged,Arts Damage,FALSE,75
+Ayerscarpe,Melee,Physical Damage,FALSE,39
+Folinic,Ranged,Healing,FALSE,44
+Click,Ranged,Arts Damage,FALSE,15
+Rosa (Poca),Ranged,Physical Damage,FALSE,56
+Leonhardt,Ranged,Arts Damage,FALSE,11
+Absinthe,Ranged,Arts Damage,FALSE,17
+Podenco,Ranged,Arts Damage,FALSE,75
+Tsukinogi,Ranged,Arts Damage,FALSE,73
+Asbestos,Melee,Physical Damage,FALSE,21
+Weedy,Melee,Physical Damage,FALSE,65
+W,Ranged,Physical Damage,FALSE,53
+Elysium,Melee,Physical Damage,FALSE,83
+THRM-EX,Melee,Physical Damage,FALSE,63
+Phantom,Melee,Physical Damage,FALSE,63
+Shamare,Ranged,Arts Damage,FALSE,74
+Sideroca,Melee,Arts Damage,FALSE,31
+Cutter,Melee,Physical Damage,FALSE,35
+Conviction,Melee,Physical Damage,FALSE,36
+Bagpipe,Melee,Physical Damage,FALSE,82
+Sesa,Ranged,Physical Damage,FALSE,53
+Bibeak,Melee,Physical Damage,FALSE,35
+Utage,Melee,Physical Damage,FALSE,37
+Purestream,Ranged,Healing,FALSE,46
+Ceobe,Ranged,Arts Damage,FALSE,17
+Leizi,Ranged,Arts Damage,FALSE,13
+Nian,Melee,Physical Damage,FALSE,26
+Aak,Ranged,Physical Damage,FALSE,66
+Hung,Melee,Physical Damage,FALSE,25
+Snowsant,Melee,Physical Damage,FALSE,64
+Blaze,Melee,Physical Damage,FALSE,32
+GreyThroat,Ranged,Physical Damage,FALSE,52
+Ambriel,Ranged,Physical Damage,FALSE,57
+Broca,Melee,Physical Damage,FALSE,32
+Reed,Melee,Physical Damage,TRUE,82
+Mostima,Ranged,Arts Damage,FALSE,11
+Bison,Melee,Physical Damage,FALSE,26
+Waai Fu,Melee,Physical Damage,FALSE,63
+May,Ranged,Physical Damage,FALSE,52
+Ceylon,Ranged,Healing,FALSE,46
+Flamebringer,Melee,Physical Damage,FALSE,36
+Breeze,Ranged,Healing,FALSE,41
+Ethan,Melee,Physical Damage,FALSE,61
+Dur-nar,Melee,Physical Damage,FALSE,21
+Magallan,Ranged,Arts Damage,FALSE,76
+Executor,Ranged,Physical Damage,TRUE,54
+Vermeil,Ranged,Physical Damage,FALSE,52
+Hellagur,Melee,Physical Damage,FALSE,37
+Astesia,Melee,Arts Damage,FALSE,31
+Myrtle,Melee,Physical Damage,FALSE,83
+Schwarz,Ranged,Physical Damage,FALSE,55
+Ch'en,Melee,Physical Damage,TRUE,35
+Glaucus,Ranged,Arts Damage,FALSE,75
+Swire,Melee,Physical Damage,TRUE,311
+Sussurro,Ranged,Healing,FALSE,44
+Greyy,Ranged,Arts Damage,TRUE,11
+Spot,Melee,Physical Damage,FALSE,25
+Popukar,Melee,Physical Damage,FALSE,32
+Skadi,Melee,Physical Damage,TRUE,36
+Grani,Melee,Physical Damage,FALSE,82
+Nightmare,Ranged,Arts Damage,FALSE,17
+Beehunter,Melee,Physical Damage,FALSE,33
+Midnight,Melee,Physical Damage,FALSE,39
+Catapult,Ranged,Physical Damage,FALSE,53
+Savage,Melee,Physical Damage,FALSE,32
+SilverAsh,Melee,Physical Damage,FALSE,39
+Saria,Melee,Physical Damage,FALSE,25
+Hoshiguma,Melee,Physical Damage,FALSE,26
+Nightingale,Ranged,Healing,FALSE,41
+Shining,Ranged,Healing,FALSE,44
+Angelina,Ranged,Arts Damage,FALSE,75
+Eyjafjalla,Ranged,Arts Damage,TRUE,17
+Ifrit,Ranged,Arts Damage,FALSE,12
+Siege,Melee,Physical Damage,FALSE,84
+Exusiai,Ranged,Physical Damage,FALSE,52
+FEater,Melee,Physical Damage,FALSE,65
+Manticore,Melee,Physical Damage,FALSE,61
+Sora,Ranged,Healing,FALSE,72
+Istina,Ranged,Arts Damage,FALSE,75
+Pramanix,Ranged,Arts Damage,FALSE,74
+Cliffheart,Melee,Physical Damage,FALSE,64
+Firewatch,Ranged,Physical Damage,FALSE,57
+Provence,Ranged,Physical Damage,FALSE,55
+Vulcan,Melee,Physical Damage,FALSE,23
+Croissant,Melee,Physical Damage,FALSE,26
+Liskarm,Melee,Physical Damage,FALSE,27
+Projekt Red,Melee,Physical Damage,FALSE,63
+Nearl,Melee,Physical Damage,TRUE,25
+Warfarin,Ranged,Healing,FALSE,44
+Silence,Ranged,Healing,TRUE,44
+Mayer,Ranged,Arts Damage,FALSE,76
+Skyfire,Ranged,Arts Damage,FALSE,11
+Amiya,Ranged,Arts Damage,TRUE,17
+Meteorite,Ranged,Physical Damage,FALSE,53
+Platinum,Ranged,Physical Damage,FALSE,52
+Blue Poison,Ranged,Physical Damage,FALSE,52
+Specter,Melee,Physical Damage,TRUE,32
+Lappland,Melee,Physical Damage,FALSE,39
+Indra,Melee,Physical Damage,FALSE,33
+Franka,Melee,Physical Damage,FALSE,36
+Texas,Melee,Physical Damage,TRUE,84
+Zima,Melee,Physical Damage,FALSE,84
+Ptilopsis,Ranged,Healing,FALSE,41
+Shaw,Melee,Physical Damage,FALSE,65
+Earthspirit,Ranged,Arts Damage,FALSE,75
+Deepcolor,Ranged,Arts Damage,FALSE,76
+Gummy,Melee,Physical Damage,FALSE,25
+Cuora,Melee,Physical Damage,FALSE,26
+Matterhorn,Melee,Physical Damage,FALSE,26
+Perfumer,Ranged,Healing,FALSE,41
+Gavial,Ranged,Healing,TRUE,44
+Myrrh,Ranged,Healing,FALSE,44
+Rope,Melee,Physical Damage,FALSE,64
+Gravel,Melee,Physical Damage,FALSE,63
+Mousse,Melee,Arts Damage,FALSE,31
+Estelle,Melee,Physical Damage,FALSE,32
+Frostleaf,Melee,Physical Damage,FALSE,39
+Matoimaru,Melee,Physical Damage,FALSE,36
+Dobermann,Melee,Physical Damage,FALSE,311
+Vigna,Melee,Physical Damage,FALSE,82
+Scavenger,Melee,Physical Damage,FALSE,84
+Courier,Melee,Physical Damage,FALSE,84
+Shirayuki,Ranged,Physical Damage,FALSE,53
+Meteor,Ranged,Physical Damage,FALSE,52
+Jessica,Ranged,Physical Damage,TRUE,52
+Gitano,Ranged,Arts Damage,FALSE,11
+Haze,Ranged,Arts Damage,FALSE,17
+Orchid,Ranged,Arts Damage,FALSE,75
+Steward,Ranged,Arts Damage,FALSE,17
+Ansel,Ranged,Healing,FALSE,44
+Hibiscus,Ranged,Healing,TRUE,44
+Lava,Ranged,Arts Damage,TRUE,11
+Adnachiel,Ranged,Physical Damage,FALSE,52
+Kroos,Ranged,Physical Damage,TRUE,52
+Beagle,Melee,Physical Damage,FALSE,26
+Cardigan,Melee,Physical Damage,FALSE,26
+Melantha,Melee,Physical Damage,FALSE,36
+Plume,Melee,Physical Damage,FALSE,82
+Vanilla,Melee,Physical Damage,FALSE,84
+Fang,Melee,Physical Damage,FALSE,84
+12F,Ranged,Arts Damage,FALSE,11
+Durin,Ranged,Arts Damage,FALSE,17
+Rangers,Ranged,Physical Damage,FALSE,52
+Noir Corne,Melee,Physical Damage,TRUE,26
+Yato,Melee,Physical Damage,TRUE,84
+Castle-3,Melee,Physical Damage,FALSE,36
+Lancet-2,Ranged,Healing,FALSE,44
