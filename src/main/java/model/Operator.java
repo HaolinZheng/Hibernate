@@ -82,16 +82,4 @@ public class Operator implements Serializable {
     public void setSkills(List<Skill> skills) {
         this.skills = skills;
     }
-
-    @Override
-    public String toString() {
-        return "Operator{" +
-                " nombreO='" + nombreO + '\'' +
-                ", position_op='" + position_op + '\'' +
-                ", attack='" + attack + '\'' +
-                ", alter_op=" + alter_op +
-                ", aClass=" + aClasss +
-                ", skills=" + skills +
-                '}';
-    }
 }

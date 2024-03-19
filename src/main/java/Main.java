@@ -125,18 +125,22 @@ public class Main {
                     classController.deletedAllClasss();
                     break;
                 case 6:
+                    operatorController.listAllOperator();
                     break;
                 case 7:
-                    classController.deletedAllClasss();
+                    operatorController.buscarOperator(menu.pedirO(), menu.pedir());
                     break;
                 case 8:
-
+                    operatorController.addAllOperator();
                     break;
                 case 9:
+                    operatorController.modificarO(menu.pedirO(), menu.pedir(), menu.cambio());
                     break;
                 case 10:
+                    operatorController.deletedOperator(menu.pedirS(),menu.pedir());
                     break;
                 case 11:
+                    operatorController.deletedAllOperator();
                     break;
                 case 12:
                     skillController.listAllSkill();
@@ -148,8 +152,10 @@ public class Main {
                     skillController.addAllSkill();
                     break;
                 case 15:
+                    skillController.modificarS(menu.pedirS(),menu.pedir(), menu.cambio());
                     break;
                 case 16:
+                    skillController.deletedSkill(menu.pedirS(),menu.pedir());
                     break;
                 case 17:
                     skillController.deletedAllSkill();

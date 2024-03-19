@@ -9,9 +9,9 @@ import java.util.*;
 @Table(name = "Skills")
 public class Skill implements Serializable {
     @Id
-    @Column(name = "nombre")
+    @Column(name = "operator_name")
     String nombre;
-    @Column(name = "nombreS")
+    @Column(name = "name")
     String nombreS;
     @Column(name = "charge")
     String charge;
@@ -21,15 +21,18 @@ public class Skill implements Serializable {
     int cost;
     @Column(name = "initial")
     int initial;
+    @Column(name = "auto")
+    boolean auto;
     public Skill() {
     }
-    public Skill(String nombre, String nombreS, String charge, String duration, int cost, int initial) {
+    public Skill(String nombre, String nombreS, String charge, String duration, int cost, int initial, boolean auto) {
         this.nombre = nombre;
         this.nombreS = nombreS;
         this.charge = charge;
         this.duration = duration;
         this.cost = cost;
         this.initial = initial;
+        this.auto = auto;
     }
     public String getNombre() {
         return nombre;
@@ -79,15 +82,11 @@ public class Skill implements Serializable {
         this.initial = initial;
     }
 
-    @Override
-    public String toString() {
-        return "Skill{" +
-                "nombre='" + nombre + '\'' +
-                ", nombreS='" + nombreS + '\'' +
-                ", charge='" + charge + '\'' +
-                ", duration='" + duration + '\'' +
-                ", cost=" + cost +
-                ", initial=" + initial +
-                '}';
+    public boolean isAuto() {
+        return auto;
+    }
+
+    public void setAuto(boolean auto) {
+        this.auto = auto;
     }
 }

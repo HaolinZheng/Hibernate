@@ -1,6 +1,7 @@
 package controller;
 
 import model.Classs;
+import model.Operator;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.NativeQuery;
@@ -25,6 +26,12 @@ public class ClasssController {
         this.entityManager = entityManagerFactory.createEntityManager();
         this.session = this.entityManager.unwrap(Session.class);
     }
+
+    /**
+     * Metodo Para listar todos las class del documento class.txt
+     * @return Una lista de Classs
+     * @throws IOException Para que no pete
+     */
     public List<Classs> readClasssFile() throws IOException {
         String primary, secondary;
         int classId;
@@ -43,22 +50,34 @@ public class ClasssController {
 
         return classsList;
     }
+    /**
+     * Muestra todos las Classs de la tabla Classs
+     */
     public void listAllClasss() {
         EntityManager em = entityManagerFactory.createEntityManager();
         em.getTransaction().begin();
         List<Classs> result = em.createQuery("from Classs", Classs.class)
                 .getResultList();
         for (Classs classs : result) {
-            System.out.println(classs.toString());
-        }
+            System.out.println("Primario: " + classs.getPrimary() + " Secundario: " + classs.getSecondary());        }
         em.getTransaction().commit();
         em.close();
     }
+
+    /**
+     * Invoca el metodo addClasss() en cada Class de la list que mando el metodo readClasssFile()
+     * @throws IOException Para que no pete
+     */
     public void addAllClasss() throws IOException {
         for (Classs classs : readClasssFile()) {
             addClasss(classs);
         }
     }
+
+    /**
+     * Metodo para añadir una Classs a la tabla Classs
+     * @param classs El Classs que quieres añadir
+     */
     public void addClasss(Classs classs) {
         EntityManager em = entityManagerFactory.createEntityManager();
         em.getTransaction().begin();
@@ -66,24 +85,45 @@ public class ClasssController {
         em.getTransaction().commit();
         em.close();
     }
+
+    /**
+     * Metodo para operatorController donde devolvera una classs dependiendo cual id le des
+     * @param number Id por la cual Buscar
+     * @return Devuelve un Classs filtrado
+     */
     public Classs buscarIdClass(String number) {
             NativeQuery<Classs> query = session.createNativeQuery("SELECT * FROM classs WHERE class_id = :id", Classs.class);
             query.setParameter("id", Integer.parseInt(number));
         return (Classs) query.getResultList();
     }
+
+    /**
+     * Metodo para buscar un Classs por ID
+     * @param number Id por la cual filtrar
+     */
     public void buscarC(String number) {
-        NativeQuery<Classs> query = session.createNativeQuery("SELECT * FROM Operator WHERE class_Id = :id", Classs.class);
+        String booleanBonito;
+        NativeQuery<Operator> query = session.createNativeQuery("SELECT * FROM Operator WHERE class_Id = :id", Operator.class);
         query.setParameter("id", Integer.parseInt(number));
-        List<Classs> tableNames = query.getResultList();
-        for (Classs classs : tableNames) {
-            System.out.println(classs.toString());
+        List<Operator> tableNames = query.getResultList();
+        for (Operator operator : tableNames) {
+            booleanBonito = (operator.isAlter_op()) ? "Si" : "No";
+            System.out.println("Nombre: " + operator.getNombreO() + " " +
+                    "Tipo: " + operator.getPosition_op() + " " +
+                    "Tipo de ataque: " + operator.getAttack() + " " +
+                    "Tiene Alters?: " + booleanBonito + " " +
+                    "Clase: " + operator.getaClass().getPrimary() + " " + operator.getaClass().getSecondary());
         }
     }
+
+    /**
+     * Metodo donde borrara todos los datos de la clase seleccionada
+     */
     public void deletedAllClasss() {
         Transaction transaction = null;
         try {
             transaction = session.beginTransaction();
-            String sql = "TRUNCATE TABLE classs CASCADE";
+            String sql = "TRUNCATE TABLE classs";
             NativeQuery query = session.createNativeQuery(sql);
             query.executeUpdate();
             transaction.commit();
@@ -95,6 +135,10 @@ public class ClasssController {
         }
     }
 
+    /**
+     * Borra el dato que quiera el usuario
+     * @param number Id por la cual filtrar
+     */
     public void deletedClasss(String number) {
             Transaction transaction = null;
             try {

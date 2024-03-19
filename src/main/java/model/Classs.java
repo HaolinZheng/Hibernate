@@ -45,13 +45,4 @@ public class Classs implements Serializable {
     public void setSecondary(String secondary) {
         this.secundario = secondary;
     }
-
-    @Override
-    public String toString() {
-        return "Class{" +
-                "class_Id=" + class_Id +
-                ", primary='" + primario + '\'' +
-                ", secondary='" + secundario + '\'' +
-                '}';
-    }
 }
