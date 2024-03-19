@@ -114,7 +114,7 @@ public class OperatorController {
     public void buscarOperator(String columna, String valor) {
         String booleanBonito;
         NativeQuery<Operator> query = session.createNativeQuery("SELECT * FROM Operator WHERE " + columna + " = :valor", Operator.class);
-        query.setParameter("valor", Integer.parseInt(valor));
+        query.setParameter("valor", valor);
         List<Operator> tableNames = query.getResultList();
         for (Operator operator : tableNames) {
             booleanBonito = (operator.isAlter_op()) ? "Si" : "No";

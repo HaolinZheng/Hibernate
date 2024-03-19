@@ -9,6 +9,9 @@ import java.util.*;
 @Table(name = "Skills")
 public class Skill implements Serializable {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id_skill")
+    private int id;
     @Column(name = "operator_name")
     String nombre;
     @Column(name = "name")
@@ -88,5 +91,13 @@ public class Skill implements Serializable {
 
     public void setAuto(boolean auto) {
         this.auto = auto;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }

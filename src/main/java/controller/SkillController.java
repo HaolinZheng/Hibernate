@@ -48,6 +48,7 @@ public class SkillController {
             cost = Integer.parseInt(str.nextToken());
             initial = Integer.parseInt(str.nextToken());
             auto = Boolean.parseBoolean(str.nextToken());
+            System.out.println(nombre + nombreS + charge + duration + cost + initial + auto);
             SkillList.add(new Skill(nombre, nombreS, charge, duration, cost, initial, auto));
         }
         br.close();
@@ -107,7 +108,7 @@ public class SkillController {
     public void buscarSkill(String columna, String valor) {
         String booleanBonito;
         NativeQuery<Skill> query = session.createNativeQuery("SELECT * FROM skills WHERE " + columna + " = :valor", Skill.class);
-        query.setParameter("valor", Integer.parseInt(valor));
+        query.setParameter("valor", valor);
         List<Skill> tableNames = query.getResultList();
         for (Skill skill : tableNames) {
             booleanBonito = (skill.isAuto()) ? "si" : "no";
@@ -128,7 +129,7 @@ public class SkillController {
         Transaction transaction = null;
         try {
             transaction = session.beginTransaction();
-            String sql = "TRUNCATE TABLE skills";
+            String sql = "DROP TABLE IF EXISTS skills CASCADE";
             NativeQuery query = session.createNativeQuery(sql);
             query.executeUpdate();
             transaction.commit();
@@ -149,8 +150,12 @@ public class SkillController {
         Transaction transaction = null;
         try {
             transaction = session.beginTransaction();
-            String sql = "DELETE FROM operator_skill WHERE "+ columna +" = :valor";
+            String sql = "DELETE FROM operator_skill WHERE id_operator = (SELECT id FROM operator WHERE " + columna + " = :valor)";
             NativeQuery query = session.createNativeQuery(sql);
+            query.setParameter("valor", valor);
+            query.executeUpdate();
+            sql = "DELETE FROM operator_skill WHERE "+ columna +" = :valor";
+            query = session.createNativeQuery(sql);
             query.setParameter("valor", valor);
             query.executeUpdate();
             sql = "DELETE FROM skills WHERE " + columna + " = :valor";

@@ -9,6 +9,9 @@ import java.util.*;
 @Table(name = "Operator")
 public class Operator implements Serializable {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id_operator")
+    private int id;
     @Column(name = "nombreO")
     String nombreO;
     @Column(name = "position_op")
@@ -24,8 +27,8 @@ public class Operator implements Serializable {
     @ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JoinTable(
             name = "operator_skill",
-            joinColumns = @JoinColumn(name = "nombreO"),
-            inverseJoinColumns = @JoinColumn(name = "nombre")
+            joinColumns = @JoinColumn(name = "operadorId"),
+            inverseJoinColumns = @JoinColumn(name = "skillId")
     )
     private List<Skill> skills = new ArrayList<Skill>();
     public Operator() {
@@ -81,5 +84,13 @@ public class Operator implements Serializable {
 
     public void setSkills(List<Skill> skills) {
         this.skills = skills;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }
