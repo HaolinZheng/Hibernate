@@ -21,8 +21,8 @@ public class OperatorController {
     private EntityManagerFactory entityManagerFactory;
     private EntityManager entityManager;
     private Session session;
-    private ClasssController classsController = new ClasssController(entityManagerFactory);
-    private SkillController skillController = new SkillController(entityManagerFactory);
+    private ClasssController classsController;
+    private SkillController skillController;
 
     public OperatorController() {
     }
@@ -30,6 +30,8 @@ public class OperatorController {
         this.entityManagerFactory = entityManagerFactory;
         this.entityManager = entityManagerFactory.createEntityManager();
         this.session = this.entityManager.unwrap(Session.class);
+        this.classsController = new ClasssController(entityManagerFactory);
+        this.skillController= new SkillController(entityManagerFactory);
     }
 
     /**
@@ -53,8 +55,7 @@ public class OperatorController {
             attack = str.nextToken();
             alter_op = Boolean.parseBoolean(str.nextToken());
             classId = Integer.parseInt(str.nextToken());
-            clase = classsController.buscarIdClass(classId+"");
-            System.out.println(nombreO + position_op + attack + alter_op);
+            clase = classsController.buscarIdClass(classId+"").get(0);
             operatorList.add(new Operator(nombreO, position_op, attack, alter_op, clase, skillController.buscarSkill(nombreO)));
         }
         br.close();
@@ -177,9 +178,13 @@ public class OperatorController {
         Transaction transaction = null;
         try {
             transaction = session.beginTransaction();
-            String sql = "DELETE FROM Operator WHERE " + columna + " = :valor";
+            String sql = "DELETE FROM operator_skill WHERE "+ columna +" = :valor";
             NativeQuery query = session.createNativeQuery(sql);
-            query.setParameter("valor", Integer.parseInt(valor));
+            query.setParameter("valor", valor);
+            query.executeUpdate();
+            sql = "DELETE FROM Operator WHERE " + columna + " = :valor";
+            query = session.createNativeQuery(sql);
+            query.setParameter("valor", valor);
             query.executeUpdate();
             transaction.commit();
         } catch (Exception e) {

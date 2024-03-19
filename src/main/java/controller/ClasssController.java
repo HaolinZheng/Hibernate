@@ -18,8 +18,8 @@ import java.util.StringTokenizer;
 
 public class ClasssController {
     private EntityManagerFactory entityManagerFactory;
-    private final EntityManager entityManager;
-    private final Session session;
+    private EntityManager entityManager;
+    private Session session;
 
     public ClasssController(EntityManagerFactory entityManagerFactory) {
         this.entityManagerFactory = entityManagerFactory;
@@ -91,10 +91,10 @@ public class ClasssController {
      * @param number Id por la cual Buscar
      * @return Devuelve un Classs filtrado
      */
-    public Classs buscarIdClass(String number) {
+    public List<Classs> buscarIdClass(String number) {
             NativeQuery<Classs> query = session.createNativeQuery("SELECT * FROM classs WHERE class_id = :id", Classs.class);
             query.setParameter("id", Integer.parseInt(number));
-        return (Classs) query.getResultList();
+        return query.getResultList();
     }
 
     /**
@@ -143,8 +143,16 @@ public class ClasssController {
             Transaction transaction = null;
             try {
                 transaction = session.beginTransaction();
-                String sql = "DELETE FROM classs WHERE class_id = :id";
+                String sql = "DELETE FROM operator_skill WHERE class_id = :id";
                 NativeQuery query = session.createNativeQuery(sql);
+                query.setParameter("id", Integer.parseInt(number));
+                query.executeUpdate();
+                sql = "DELETE FROM operator WHERE class_id = :id";
+                query = session.createNativeQuery(sql);
+                query.setParameter("id", Integer.parseInt(number));
+                query.executeUpdate();
+                sql = "DELETE FROM classs WHERE class_id = :id";
+                query = session.createNativeQuery(sql);
                 query.setParameter("id", Integer.parseInt(number));
                 query.executeUpdate();
                 transaction.commit();

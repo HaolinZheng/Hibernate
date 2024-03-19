@@ -106,8 +106,8 @@ Erato,Skill 1: Lullaby's Meter,Per Second,-,9,0,TRUE
 Erato,Skill 2: Heroes' Paean,Per Second,20 Seconds,25,15,TRUE
 Windflit,Skill 1: Machine Rapport,Per Second,-,6,0,TRUE
 Windflit,Skill 2: Energy Rapport,Per Second,15 Seconds,50,35,TRUE
-Lumen,"Skill 1: In Drizzle, Privation",Per Second,-,10,0,TRUE
-Lumen,"Skill 2: In Downpour, Grace",Per Second,-,13,5,TRUE
+Lumen,Skill 1: In Drizzle: Privation,Per Second,-,10,0,TRUE
+Lumen,Skill 2: In Downpour: Grace,Per Second,-,13,5,TRUE
 Lumen,Skill 3: This Lantern Undying,Per Second,-,50,0,TRUE
 Irene,Skill 1: Gust,Attacking Enemy,-,3,0,TRUE
 Irene,Skill 2: Shattertide,Attacking Enemy,-,8,6,TRUE
@@ -207,7 +207,7 @@ Indigo,Skill 1: Lighthouse Guardian,Per Second,4 Seconds,15,5,TRUE
 Indigo,Skill 2: Labyrinth of Light,Per Second,20 Seconds,40,20,TRUE
 Skadi the Corrupting Heart,Skill 1: Chant of Returning by Varied Paths,Per Second,30 Seconds,50,30,TRUE
 Skadi the Corrupting Heart,Skill 2: Wish of Burial Beyond the Light,Per Second,-,56,0,TRUE
-Skadi the Corrupting Heart,"Skill 3: 'The Tide Surges, The Tide Recedes'",Per Second,20 Seconds,35,15,TRUE
+Skadi the Corrupting Heart,Skill 3: 'The Tide Surges and The Tide Recedes',Per Second,20 Seconds,35,15,TRUE
 Kal'tsit,Skill 1: Command: Structural Fortification,Per Second,40 Seconds,20,10,TRUE
 Kal'tsit,Skill 2: Command: Tactical Coordination,Per Second,20 Seconds,8,0,TRUE
 Kal'tsit,Skill 3: Command: Meltdown,Per Second,20 Seconds,15,0,TRUE

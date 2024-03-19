@@ -106,7 +106,7 @@ public class SkillController {
      */
     public void buscarSkill(String columna, String valor) {
         String booleanBonito;
-        NativeQuery<Skill> query = session.createNativeQuery("SELECT * FROM Skill WHERE " + columna + " = :valor", Skill.class);
+        NativeQuery<Skill> query = session.createNativeQuery("SELECT * FROM skills WHERE " + columna + " = :valor", Skill.class);
         query.setParameter("valor", Integer.parseInt(valor));
         List<Skill> tableNames = query.getResultList();
         for (Skill skill : tableNames) {
@@ -128,7 +128,7 @@ public class SkillController {
         Transaction transaction = null;
         try {
             transaction = session.beginTransaction();
-            String sql = "TRUNCATE TABLE Skill";
+            String sql = "TRUNCATE TABLE skills";
             NativeQuery query = session.createNativeQuery(sql);
             query.executeUpdate();
             transaction.commit();
@@ -149,8 +149,12 @@ public class SkillController {
         Transaction transaction = null;
         try {
             transaction = session.beginTransaction();
-            String sql = "DELETE FROM Skill WHERE " + columna + " = :valor";
+            String sql = "DELETE FROM operator_skill WHERE "+ columna +" = :valor";
             NativeQuery query = session.createNativeQuery(sql);
+            query.setParameter("valor", valor);
+            query.executeUpdate();
+            sql = "DELETE FROM skills WHERE " + columna + " = :valor";
+            query = session.createNativeQuery(sql);
             query.setParameter("valor", Integer.parseInt(valor));
             query.executeUpdate();
             transaction.commit();
@@ -172,7 +176,7 @@ public class SkillController {
         Transaction transaction = null;
         try {
             transaction = session.beginTransaction();
-            String sql = "UPDATE skill SET ='" + cambio + "' WHERE" + columna + " = :valor";
+            String sql = "UPDATE skills SET ='" + cambio + "' WHERE" + columna + " = :valor";
             NativeQuery query = session.createNativeQuery(sql);
             query.setParameter("valor", Integer.parseInt(valor));
             query.executeUpdate();
@@ -191,9 +195,8 @@ public class SkillController {
      * @return List de Skill filtrada
      */
     public List<Skill> buscarSkill(String valor) {
-        NativeQuery<Skill> query = session.createNativeQuery("SELECT * FROM Skill WHERE operator_name = :valor", Skill.class);
-        query.setParameter("valor", Integer.parseInt(valor));
-        List<Skill> tableNames = query.getResultList();
-        return tableNames;
+        NativeQuery<Skill> query = session.createNativeQuery("SELECT * FROM skills WHERE operator_name = :valor", Skill.class);
+        query.setParameter("valor", valor);
+        return query.getResultList();
     }
 }
